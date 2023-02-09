@@ -7,6 +7,7 @@ typedef struct Node
 } node;
 
 // using type def we can shorten the keywords. It is used to provide new names for exisiting datatypes
+// instead of struct Node* we can simply use node*
 node* head=NULL;
 node* createNode()
 {
